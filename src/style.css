@@ -7,6 +7,12 @@ body {
   height: 84px;
   width: 100%;
 }
+h1 {
+  padding-top: 15px;
+  color: #3c1200;
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+}
 .image-container {
   position: relative;
   display: flex;
@@ -56,7 +62,15 @@ body {
 .cast {
   font-family: "Merriweather", serif;
   text-align: start;
-  color: #3c1200;
+  color: whitesmoke;
+  border-radius: 0px 100px 100px 0px;
+  background: #ad782a;
+  margin-left: -84px;
+  padding-left: 83px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-right: 30px;
+  
 }
 .text {
   font-family: "Merriweather", serif;
@@ -74,5 +88,88 @@ h2 {
   width: 110%;
 }
 .img-fluid {
+  width: 100%;
+}
+img{
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+a:hover{
+
+box-shadow: -3px 6px 12px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px 6px 12px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 6px 12px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 6px 12px 3px rgba(0,0,0,0.75);
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+.seasons {
+  border-radius: 50px 0px 0px 50px;
+  background: #3c1200;
+  color: whitesmoke;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-right: -83px;
+}
+h3 {
+  border-radius: 50px 0px 0px 50px;
+  background: #d9a51f;
+  margin-right: -83px;
+  margin-top: 40px;
+  margin-bottom: 75px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #3c1200;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.trailer {
+  animation: customAni 6s ease 0s 2 normal none;
+  
+  }
+  .text-end{
+    animation: customAni 6s ease 0s 2 normal none;
+
+  }
+@keyframes customAni {
+    0% {
+      transform: scale(0.5);
+      transform-origin: 100% 50%;
+    }
+
+    100% {
+      transform: scale(1);
+      transform-origin: 100% 50%;
+    }
+footer {
+  background-color: #3c1200;
+  height: 84px;
   width: 100%;
 }
