@@ -15,6 +15,41 @@ h1 {
   font-size: 45px;
 }
 
+h2{
+  color: #3c1200;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+
+}
+strong{
+  color: #3c1200;
+
+}
+.btn-secondary, .more{
+  background-color:#3c1200
+}
+.btn-secondary, a{
+ text-decoration: none;
+
+  margin-bottom: 20px;
+  color: white;
+}
+
+.btn-secondary a:hover{
+  
+  color:#3c1200
+}
+.btn-secondary:hover{
+  background-color: #ad782a;
+}
+.btn-primary:hover{
+  background-color: #ad782a;
+  border-color: #ad782a;
+}
+.btn-primary{
+  background-color:#3c1200;
+ border-color: #3c1200;
+}
 
 @media screen and (max-width: 690px){
 
